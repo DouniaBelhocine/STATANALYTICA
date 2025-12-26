@@ -2,7 +2,26 @@ import streamlit as st
 import sys
 import os
 from pathlib import Path
+ os
+import subprocess
 
+def check_dependencies():
+    """Vérifie et installe les dépendances manquantes"""
+    try:
+        import pandas
+        import numpy
+        import streamlit
+        return True
+    except ImportError as e:
+        print(f"Erreur d'importation : {e}")
+        return False
+
+# Afficher les informations de version
+st.sidebar.markdown("### ℹ️ Informations système")
+st.sidebar.code(f"""
+Python: {sys.version.split()[0]}
+Streamlit: {st.__version__}
+""")
 # Configuration de la page
 st.set_page_config(
     page_title="📈 TimeSeries Forecast Pro",
@@ -481,4 +500,5 @@ def main():
         st.markdown("## " + st.query_params.get("page", ""))
 
 if __name__ == "__main__":
+
     main()
