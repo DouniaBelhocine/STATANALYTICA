@@ -2,7 +2,6 @@ import streamlit as st
 import sys
 import os
 from pathlib import Path
- os
 import subprocess
 
 def check_dependencies():
@@ -502,3 +501,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
