@@ -30,7 +30,7 @@ st.set_page_config(
     menu_items={
         'Get Help': 'https://github.com/your-repo',
         'Report a bug': "https://github.com/your-repo/issues",
-        'About': "### Master ROMARIN - Projet de Prévision des Séries Temporelles\n\n**Réalisé par :**\n- Dounia Belhocine\n- Hadil Bachir\n\n© 2024 - Tous droits réservés"
+        'About': "### Master ROMARIN - Projet de Prévision des Séries Temporelles\n\n**Réalisé par :**\n- Dounia Belhocine\n- Hadil Bachir\n\n© 2025 - Tous droits réservés"
     }
 )
 
@@ -318,8 +318,7 @@ def main_page():
         <div class="card">
             <h3>👥 À propos des auteurs</h3>
             <p><strong>Dounia Belhocine & Hadil Bachir</strong></p>
-            <p>Étudiantes en Master ROMARIN, spécialisées en analyse de données 
-            et modélisation statistique. Ce projet représente notre travail 
+            <p>Étudiantes en Master ROMARIN,Dans le module méthodes de Prevision. Ce projet représente notre travail 
             approfondi sur les méthodes de prévision temporelle.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -341,7 +340,7 @@ def main_page():
     st.markdown("""
     <div class="footer">
         <p>© 2024 - Projet académique - Master ROMARIN</p>
-        <p>Développé avec ❤️ par Dounia Belhocine & Hadil Bachir</p>
+        <p>Développé avec ❤️ par Dounia Belhocine & Hadil Bachir Pour Monsieur Chaabane </p>
         <p style="font-size: 0.9rem; color: #888;">
             Cette application est optimisée pour Streamlit Cloud
         </p>
@@ -501,4 +500,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
