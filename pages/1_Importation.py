@@ -142,13 +142,14 @@ with st.expander("🎯 **Fonctionnalités avancées**", expanded=False):
             st.toast("Prétraitement appliqué !", icon="✅")
 
 # === Footer de page ===
-st.markdown("---")
-col_prev, col_next = st.columns(2)
+#st.markdown("---")
+#col_prev, col_next = st.columns(2)
 
-with col_prev:
-    if st.button("⬅️ Page précédente", disabled=True):
-        st.switch_page("app.py")
+#with col_prev:
+  #  if st.button("⬅️ Page précédente", disabled=True):
+   #     st.switch_page("app.py")
 
-with col_next:
-    if st.button("Page suivante ➡️", type="primary"):
-        st.switch_page("pages/2_📊_Analyse_Exploratoire.py")
+#with col_next:
+ #   if st.button("Page suivante ➡️", type="primary"):
+
+#        st.switch_page("pages/2_📊_Analyse_Exploratoire.py")
