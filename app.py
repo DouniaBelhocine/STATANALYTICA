@@ -23,7 +23,7 @@ Streamlit: {st.__version__}
 """)
 # Configuration de la page
 st.set_page_config(
-    page_title="📈 TimeSeries Forecast Pro",
+    page_title="📈 StatAnalitica",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -500,6 +500,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
