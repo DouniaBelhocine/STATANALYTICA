@@ -3,7 +3,11 @@ import sys
 import os
 from pathlib import Path
 import subprocess
-
+st.set_page_config(
+    page_title="TimeSeries Forecast Pro",
+    page_icon="📈",
+    layout="wide"
+)
 def check_dependencies():
     """Vérifie et installe les dépendances manquantes"""
     try:
@@ -500,6 +504,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
