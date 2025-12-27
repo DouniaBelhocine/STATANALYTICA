@@ -23,7 +23,7 @@ Streamlit: {st.__version__}
 """)
 # Configuration de la page
 st.set_page_config(
-    page_title="📈 StatAnalitica",
+    page_title="📈 StatAnalytica",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -180,7 +180,7 @@ def create_header():
         st.markdown("""
         <div class="header-container">
             <h1 style="margin: 0; font-size: 2.5rem; text-align: center;">
-                TimeSeries Forecast Pro
+                StatAnalytica
             </h1>
             <p style="text-align: center; font-size: 1.2rem; margin-top: 0.5rem;">
                 Plateforme avancée de prévision des séries temporelles
@@ -500,6 +500,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
