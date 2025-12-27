@@ -4,10 +4,17 @@ import os
 from pathlib import Path
 import subprocess
 st.set_page_config(
-    page_title="TimeSeries Forecast Pro",
+    page_title="📈 StatAnalytica",
     page_icon="📈",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://github.com/your-repo',
+        'Report a bug': "https://github.com/your-repo/issues",
+        'About': "### Master ROMARIN - Projet de Prévision des Séries Temporelles\n\n**Réalisé par :**\n- Dounia Belhocine\n- Hadil Bachir\n\n© 2025 - Tous droits réservés"
+    }
 )
+
 def check_dependencies():
     """Vérifie et installe les dépendances manquantes"""
     try:
@@ -26,17 +33,6 @@ Python: {sys.version.split()[0]}
 Streamlit: {st.__version__}
 """)
 # Configuration de la page
-st.set_page_config(
-    page_title="📈 StatAnalytica",
-    page_icon="📈",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'Get Help': 'https://github.com/your-repo',
-        'Report a bug': "https://github.com/your-repo/issues",
-        'About': "### Master ROMARIN - Projet de Prévision des Séries Temporelles\n\n**Réalisé par :**\n- Dounia Belhocine\n- Hadil Bachir\n\n© 2025 - Tous droits réservés"
-    }
-)
 
 # === Configuration des chemins ===
 ROOT = Path(__file__).parent
@@ -504,6 +500,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
