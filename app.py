@@ -339,8 +339,8 @@ def main_page():
     # Footer
     st.markdown("""
     <div class="footer">
-        <p>© 2024 - Projet académique - Master ROMARIN</p>
-        <p>Développé avec ❤️ par Dounia Belhocine & Hadil Bachir Pour Monsieur Chaabane </p>
+        <p>© 2025 - Projet académique - Master ROMARIN</p>
+        <p>Développé avec ❤️ par Dounia Belhocine & Hadil Bachir pour Monsieur Chaabane </p>
         <p style="font-size: 0.9rem; color: #888;">
             Cette application est optimisée pour Streamlit Cloud
         </p>
@@ -500,5 +500,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
